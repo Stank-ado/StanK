@@ -1,24 +1,35 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport"
-        content="width=device-width, initial-scale=1.0">
-        <title>galeria</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería Interactiva</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Galería Interactiva</h1>
+
+    <img id="imagen" src="miniatura2.png" alt="Imagen actual" width="356" height="200">
     
-      <h1>Galería Interactiva</h1>
-        
-      <img id="imagen" src="miniatura2.png" alt="Imagen actual" width="356" height="200">
-            
-      <br>
-            
-      <button onclick="cambiarImagen()">Siguiente Imagen</button>
-        
-      <script src="script.js"></script>
+    <p id="descripcion">miniatura del canal que nunca cree</p> <!-- Texto dinámico -->
 
-    </body>
+    <br>
+    
+    <button onclick="cambiarImagen()">Siguiente Imagen</button>
 
+    <script src="script.js"></script>
+</body>
+
+<br>
+<br>
+
+<body>
+    <video id="miVideo" width="500" controls>
+        <source src="video canal stank.mp4" type="video/mp4">
+        Tu navegador no soporta el video.
+    </video>
+    <br>
+    <p2>video del canal</p2>
+    
+</body>
 </html>
