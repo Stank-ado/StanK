@@ -2,7 +2,7 @@
 const imagenes = [
     { src: "miniatura2.png", texto: "miniatura del canal que nunca cree" },
     { src: "estandarte.png", texto: "estandarte del canal que nunca cree jejeje" },
-    { src: "logo.png", texto: "logo" },
+    { src: "logo.png", texto: "el logo de mi canal" },
 
     
 ];

@@ -1,26 +1,32 @@
-
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    margin-top: 50px;
-    background-color: rgb(124, 119, 190); /* Cambia este color */
+    margin-top: 0;
+    background-color: rgb(48, 43, 53); /* Cambia este color */
 }
 p {
-    color: rgb(0, 0, 0);
     font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.7);  /* Fondo negro con transparencia */
+    color: white;  /* Color del texto */
+    display: inline-block;  /* Para que solo ocupe el espacio del texto */
+    padding: 10px 20px;  /* Espaciado interno */
+    border-radius: 10px;  /* Bordes redondeados */
 }
+
 body {  
     padding: 10px 15px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 30px;
+    margin: 0;
+    text-align: center; 
 
 }
 
 button {
     padding: 10px 15px;
     font-size: 16px;
-    background-color: #007bff;
-    color: white;
+    background-color: #fcff58;
+    color: rgb(0, 0, 0);
     border: none;
     cursor: pointer;
     margin-top: 10px;
@@ -28,9 +34,36 @@ button {
 
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #522b6d;
 }
 
 head { color: rgb(186, 173, 233);
 
+}
+.banner {
+    background-image: url('fondo.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 40px;
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+    width: 95%;
+}
+.banner h1 {
+    background-color: rgba(0, 0, 0, 0.7);  /* Fondo negro con transparencia */
+    color: white;  /* Color del texto */
+    display: inline-block;  /* Para que solo ocupe el espacio del texto */
+    padding: 10px 20px;  /* Espaciado interno */
+    border-radius: 10px;  /* Bordes redondeados */
+}
+
+
+
+
+
+body {
+    padding-top: 0;  /* Evitar que el contenido quede tapado por el banner */
 }
